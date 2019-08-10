@@ -1,0 +1,200 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #fff;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+header {
+  background: url("../img/book.jpg");
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  padding-top: 5px;
+  z-index: 3;
+  color: white;
+  height: 50px;
+}
+
+header h1 {
+  background: ;
+  width: 500px;
+  margin-top: 0px;
+  margin-left: 0px;
+  text-align: center;
+}
+header ul {
+  float: right;
+  width: 300px;
+  margin: 2px;
+  height: 40px;
+}
+header ul li {
+  text-align: center;
+  list-style-type: none;
+  cursor: pointer;
+  display: inline-block;
+  width: 100px;
+  background: white;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+header ul li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+img {
+  width: 80px;
+  padding-top: 5px;
+  height: 50px;
+}
+
+.clover {
+  width: 60%;
+  height: 90px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  top: 20%;
+  left: 20%;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 3;
+}
+
+.container {
+  padding-top: 10px;
+  width: 910px;
+  margin: 35px auto;
+  position: relative;
+  text-align: center;
+  top: 30px;
+}
+
+.container table {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  border-color: white;
+  border-collapse: collapse;
+  background: ;
+  margin: 10px auto;
+}
+
+.container thead th {
+  color: white;
+  background: #a76125;
+  padding: 8px;
+  border-color: white;
+}
+.container tbody tr {
+  color: white;
+  background: #201b21;
+  text-align: center;
+}
+
+.container tbody tr td {
+  padding: 8px;
+  border-collapse: separate;
+}
+.container td input {
+  cursor: pointer;
+  background: lightblue;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+td #a {
+  cursor: pointer;
+  background: #ff4d38;
+  border: none;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 8px;
+  margin-right: 4px;
+}
+#r1 {
+  cursor: pointer;
+  background: orange;
+  border: none;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 3px;
+  float: left;
+}
+.form-control {
+  width: 300px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  padding: 5px 20px;
+  color: magenta;
+  outline: none;
+  box-shadow: inset 0px 0px 3px #000;
+}
+.btn {
+  color: white;
+  font-family: georgia;
+  border: none;
+  padding: 10px;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+}
+#r2 {
+  cursor: pointer;
+  background: lightgreen;
+  border: none;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 3px;
+  margin-left: 4px;
+  float: left;
+}
+td #r {
+  cursor: pointer;
+  background: #44f384;
+  border: none;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.container h2 {
+  padding: 10px;
+}
+
+.empty {
+  padding: 10px;
+  text-align: center;
+  background: #e4895e;
+  margin-top: 30px;
+}
+
+.error {
+  width: 50%;
+  background: #fff1f2;
+  border: #ffd5da 1px solid;
+  color: #d6001c;
+  text-align: center;
+  margin: 0px auto;
+  padding: 5px;
+}
+.success {
+  width: 50%;
+  background-color: lightgreen;
+  color: green;
+  margin: 0px auto;
+  text-align: center;
+  padding: 8px;
+}

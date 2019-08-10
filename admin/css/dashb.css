@@ -1,0 +1,63 @@
+.header {
+  width: 100%;
+  height: 70px;
+  position: relative;
+  top: 0%;
+  left: 0%;
+  text-align: center;
+  z-index: 2;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  text-shadow: 0px 1px 0px red;
+  line-height: 70px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+.container {
+  width: 70%;
+  padding: 20px;
+  left: 13%;
+  background: #feeadd;
+  margin: 90px auto;
+  text-align: center;
+  box-shadow: 0px 2px 3px #000;
+  border-right: none;
+  border-left: none;
+}
+.page {
+  width: 70%;
+  padding: 20px;
+  left: 13%;
+  background: #feeadd;
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: 0px 2px 3px #000;
+  border-right: none;
+  border-left: none;
+}
+.page1 {
+  width: 70%;
+  padding: 20px;
+  left: 13%;
+  background: #feeadd;
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: 0px 2px 3px #000;
+  border-right: none;
+  border-left: none;
+}
+.page2 {
+  width: 70%;
+  padding: 20px;
+  left: 13%;
+  background: #feeadd;
+  margin: 20px auto;
+  text-align: center;
+  box-shadow: 0px 2px 3px #000;
+  border-right: none;
+  border-left: none;
+}

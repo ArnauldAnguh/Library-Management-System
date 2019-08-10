@@ -1,0 +1,242 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: #222;
+}
+
+header {
+  background: black;
+  position: relative;
+  position: fixed;
+  line-height: 60px;
+  top: 0px;
+  width: 100%;
+  color: white;
+  height: 60px;
+  z-index: 3;
+}
+
+header ul li {
+  animation: animate 300ms ease-in-out infinite;
+}
+
+#introd a {
+  color: white;
+}
+
+header h1 {
+  width: 300px;
+  margin-top: 0px;
+  margin-left: 10px;
+  text-align: center;
+}
+header a {
+  text-align: center;
+  cursor: pointer;
+  float: right;
+  display: block;
+  padding: 0px 20px;
+  margin: 0px;
+  text-decoration: none;
+  color: purple;
+  font-weight: bold;
+}
+header a:first-child {
+  border-left: 2px solid #333;
+}
+.intro {
+  color: white;
+  background: #222;
+  border-bottom: 1px solid #333;
+  position: relative;
+  margin: 4% auto 0;
+  padding: 10px 20px;
+  text-align: center;
+}
+.intro #span {
+  padding: 2px 8px;
+  float: left;
+  margin: 7px auto;
+}
+.intro #span a {
+  color: white;
+  padding: 3px;
+  display: inline-block;
+}
+.section {
+  position: relative;
+  top: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background: #222;
+}
+.section li {
+  text-align: center;
+  list-style-type: none;
+  cursor: pointer;
+  display: block;
+  width: 100px;
+  background: white;
+  border-radius: 10px;
+  margin: 10px auto;
+  margin-left: 130px;
+}
+.section li a {
+  display: block;
+  text-decoration: none;
+  padding: 4px;
+  border-radius: 10px;
+}
+.section h1 {
+  text-align: center;
+}
+.section form {
+  width: 80%;
+  margin: 0px auto;
+  background: #edf7ca;
+}
+.report {
+  font-size: 23px;
+  color: red;
+}
+
+.clover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  transition: 0.4s ease;
+}
+
+.clover p {
+  text-align: center;
+  margin: 250px auto;
+  color: lightblue;
+  transition: 0.4s ease;
+  font-size: 25px;
+  width: 330px;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 3;
+  padding: 5px;
+}
+.form-control {
+  width: 300px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  padding: 10px 20px;
+  color: magenta;
+  box-sizing: border-box;
+  outline: none;
+  box-shadow: inset 0px 0px 3px #000;
+}
+.btn {
+  color: white;
+  font-family: georgia;
+  border: none;
+  padding: 5px 10px;
+  background: #222;
+  cursor: pointer;
+  outline: none;
+}
+.section table {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  border-color: white;
+  border-collapse: collapse;
+  margin: 15px auto;
+  box-sizing: border-box;
+}
+.section thead th {
+  color: #222;
+  padding: 8px;
+  border-bottom: 3px solid #222;
+  border-color: white;
+}
+.section tbody tr {
+  color: #6b8e23;
+  border-bottom: 1px solid #222;
+}
+.section tbody tr:hover,
+tr:focus {
+  background: #fff8dc;
+  color: #6b8e23;
+}
+.section td input {
+  cursor: pointer;
+  background: lightblue;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+.section td a {
+  cursor: pointer;
+  background: lightblue;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+img {
+  width: 90px;
+  height: 50px;
+  margin: 5px auto;
+  border-radius: 3px;
+  border: 2px solid white;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  bottom: 0px;
+  margin: 0px;
+  background: red;
+}
+footer p {
+  margin: 0px;
+  position: relative;
+  padding-left: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fea;
+  border-right: 4px solid #0c1f22;
+  padding: 5px;
+  box-sizing: border-box;
+}
+footer address {
+  left: 1%;
+  position: relative;
+  width: 220px;
+  text-align: center;
+  color: white;
+}
+#marquee {
+  position: relative;
+  width: 70%;
+  text-align: center;
+  color: white;
+  margin: 0px auto;
+}
+footer p a {
+  float: right;
+  font-weight: bold;
+  color: white;
+  background: blue;
+}
+.well {
+  padding: 20px 30px;
+  text-align: center;
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+}

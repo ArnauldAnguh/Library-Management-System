@@ -1,0 +1,84 @@
+.header{
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	text-align: center;
+	z-index: 2;
+	font-size: 35px;
+	text-shadow: 0px 3px 5px rgba(0,0,0,.4);
+	line-height: 70px;
+	color: white;
+
+}
+.a {
+	position: absolute;
+	top: 0%;
+	left: 10%;
+	font-size: 17px;
+	color: white;
+	outline: none;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background: #201B21;
+	color: white;
+}
+form{
+	width: 80%;
+	margin: 100px auto;
+	background-attachment:fixed; ;
+	padding: 20px;
+	text-align: center;
+}
+.add{
+	padding: 6px;
+	margin-bottom: 5px;
+}
+.add input{
+	width: 400px;
+	padding: 6px;
+}
+.add textarea{
+	width: 400px;
+	height: 100px;
+	resize: none;
+	outline: none;
+	padding: 6px;
+	border-radius: 10px;
+}
+.add .btn{
+	width: 410px;
+	background: lightblue;
+	cursor: pointer;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-size: 20px;
+	color: #FEF5DD;
+}
+.add .img{
+	background: #F3DDFE;
+	color: white;
+	cursor: pointer;
+}
+
+.error{
+	width: 50%;
+	background-color: red;
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+.success {
+	width: 50%;
+	background-color: lightgreen;
+	color: green;
+	margin: 0px auto;
+	text-align: center;
+	padding: 8px;
+}

@@ -1,0 +1,189 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(
+    80deg,
+    rgba(0, 0, 0, 0.6) 40%,
+    rgba(230, 157, 74, 0.534) 80%
+  );
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.founder {
+  width: 200px;
+  height: 258px;
+  background: transparent;
+  border: none;
+  display: inline-block;
+  position: relative;
+  padding: 0px;
+  left: 20%;
+  margin-right: 5px;
+}
+#fimg {
+  width: 200px;
+  height: 210px;
+  top: 0px;
+  z-index: -1;
+  position: relative;
+  border: none;
+  border-radius: 0px;
+  margin: 0px;
+}
+.founder .page-header {
+  position: relative;
+  top: 0px;
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 3px;
+  margin: 0px;
+  z-index: 1;
+}
+.founder .footer {
+  position: relative;
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 3px;
+  height: 20px;
+  top: -28px;
+  z-index: 1;
+  margin: 0px;
+}
+.founder:hover,
+img:focus {
+  z-index: 1;
+  transform: scale(1.03);
+  cursor: pointer;
+  transition: 0.4s ease-out;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
+.page-header:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.row {
+  width: 100%;
+  top: -20px;
+  padding: 10px;
+  position: relative;
+  /*background: rgba(0,0,0,.4);*/
+  padding-bottom: 0px;
+  padding-top: 13px;
+  /*z-index: 1;*/
+}
+#owners {
+  text-align: center;
+  margin: 0px;
+  top: -20px;
+  position: relative;
+  color: white;
+}
+
+header {
+  /*background: lightgreen;*/
+  position: fixed;
+  top: 0px;
+  left: 0%;
+  width: 100%;
+  padding-top: 5px;
+  z-index: 3;
+  color: white;
+  height: 50px;
+}
+
+header ul li {
+  animation: animate 300ms ease-in-out infinite;
+}
+
+#introd a {
+  color: white;
+}
+
+header h1 {
+  width: 300px;
+  margin-top: 0px;
+  margin-left: 10px;
+  text-align: center;
+}
+header ul {
+  float: right;
+  width: 300px;
+  margin: 2px;
+  height: 40px;
+}
+header ul li {
+  text-align: center;
+  list-style-type: none;
+  cursor: pointer;
+  display: inline-block;
+  width: 100px;
+  background: white;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+header ul li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.intro {
+  color: white;
+  border-bottom: 1px solid #333;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  position: relative;
+  margin: 5px auto;
+  padding-right: 10px;
+  text-align: center;
+}
+.intro #span {
+  padding: 2px 8px;
+  float: left;
+  margin: 7px auto;
+}
+.intro #span a {
+  color: white;
+  padding: 3px;
+  display: inline-block;
+}
+
+footer {
+  width: 100%;
+  bottom: 0px;
+  position: fixed;
+  z-index: 1;
+}
+footer p {
+  margin: 0px;
+  position: relative;
+  padding-left: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fea;
+  border-right: 4px solid #0c1f22;
+  padding: 5px;
+}
+footer address {
+  left: 1%;
+  position: relative;
+  width: 220px;
+  text-align: center;
+  color: white;
+}
+#marquee {
+  position: relative;
+  width: 720px;
+  text-align: center;
+  color: white;
+  /* background: ; */
+  margin: 0px auto;
+}
+footer p a {
+  float: right;
+  margin-right: 60px;
+  font-weight: bold;
+  color: white;
+}

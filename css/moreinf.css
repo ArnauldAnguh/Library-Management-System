@@ -1,0 +1,71 @@
+body {
+  background: linear-gradient(
+    80deg,
+    rgba(0, 0, 0, 0.6) 40%,
+    rgba(230, 157, 74, 0.534) 80%
+  );
+  background-repeat: no-repeat;
+  padding: 0px;
+  background-attachment: fixed;
+  margin: 0px;
+}
+.container {
+  padding: 2px;
+  text-align: center;
+  box-shadow: 0px 2px 3px #000;
+  color: #222;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 700px;
+  background: khaki;
+  border-radius: 10px;
+  border: 1px solid;
+  margin: 10px auto;
+}
+
+.backbtn {
+  padding: 5px;
+  float: left;
+  margin-left: 0px;
+  cursor: pointer;
+  border: none;
+  color: rgb(68, 50, 50);
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 3px;
+}
+.case {
+  width: 500px;
+  padding: 20px;
+  margin: 10px auto;
+}
+.btn {
+  width: 200px;
+  cursor: pointer;
+  background: lightblue;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  color: orangered;
+}
+.clover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 3;
+  transition: 0.3s ease;
+}
+.clover p {
+  text-align: center;
+  margin: 250px auto;
+  color: white;
+  transition: 0.4s ease;
+  font-size: 25px;
+  z-index: 3;
+}

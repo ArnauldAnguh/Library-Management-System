@@ -1,0 +1,143 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+header {
+  background: url("../img/book.jpg");
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  padding-top: 5px;
+  z-index: 3;
+  color: white;
+  height: 50px;
+}
+
+header h1 {
+  background: ;
+  width: 500px;
+  margin-top: 0px;
+  margin-left: 0px;
+  text-align: center;
+}
+header ul {
+  float: right;
+  width: 300px;
+  margin: 2px;
+  height: 40px;
+}
+header ul li {
+  text-align: center;
+  list-style-type: none;
+  cursor: pointer;
+  display: inline-block;
+  width: 100px;
+  background: white;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+header ul li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.container {
+  background: white;
+  padding-top: 10px;
+  width: 910px;
+  margin: 50px auto;
+  position: relative;
+  text-align: center;
+}
+
+.clover {
+  width: 30%;
+  height: 100px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  top: 50%;
+  left: 50%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 3;
+}
+
+.container form {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0px;
+  margin: 10px auto;
+}
+
+.btn {
+  cursor: pointer;
+  background: orange;
+  border: none;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 8px;
+  margin-right: 4px;
+}
+.form-group {
+  outline: 0;
+  text-align: center;
+  width: 80%;
+  padding: 5px 0px;
+
+  margin: 5px auto;
+}
+form input {
+  padding: 5px;
+  outline: 0;
+  text-align: center;
+  margin-bottom: 4px;
+  width: 90%;
+}
+
+form label {
+  font-family: fantasy;
+  word-spacing: 10px;
+  font-size: 20px;
+}
+
+img {
+  border: 3px solid lightgreen;
+}
+
+textarea {
+  width: 90%;
+  resize: none;
+  height: 200px;
+}
+.empty {
+  padding: 10px;
+  text-align: center;
+  background: #e4895e;
+  margin-top: 30px;
+}
+
+.error {
+  width: 50%;
+  background: #fff1f2;
+  border: #ffd5da 1px solid;
+  color: #d6001c;
+  text-align: center;
+  margin: 0px auto;
+  padding: 5px;
+}
+.success {
+  width: 50%;
+  background-color: lightgreen;
+  color: green;
+  margin: 0px auto;
+  text-align: center;
+  padding: 8px;
+}
